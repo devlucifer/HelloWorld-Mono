@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/Default.aspx.cs" ctype="Workbench">
+    <Files>
+      <File FileName="HelloWorld/Default.aspx" Line="1" Column="1" />
+      <File FileName="HelloWorld/Default.aspx.cs" Line="15" Column="3" />
+      <File FileName="core/CoreWeb/PageBase.cs" Line="9" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="src" expanded="True">
+            <Node name="client" expanded="True">
+              <Node name="HelloWorld" expanded="True" selected="True">
+                <Node name="Default.aspx" expanded="True" />
+                <Node name="Global.asax" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="core" expanded="True">
+              <Node name="CoreWeb" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

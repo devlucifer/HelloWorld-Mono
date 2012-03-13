@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{377A8404-853A-4F69-B64C-09ADCC3DE3ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{A5E96E8D-C44C-422B-9D66-B557D2D209FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{144B2007-AD46-403F-AA9B-1A98C9B36629}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{418E4041-F309-478A-8968-1B7ECF771FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWeb", "core\CoreWeb\CoreWeb.csproj", "{86F73FCB-3A0D-477D-B798-05706C083134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{144B2007-AD46-403F-AA9B-1A98C9B36629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144B2007-AD46-403F-AA9B-1A98C9B36629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144B2007-AD46-403F-AA9B-1A98C9B36629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144B2007-AD46-403F-AA9B-1A98C9B36629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F73FCB-3A0D-477D-B798-05706C083134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F73FCB-3A0D-477D-B798-05706C083134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F73FCB-3A0D-477D-B798-05706C083134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F73FCB-3A0D-477D-B798-05706C083134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5E96E8D-C44C-422B-9D66-B557D2D209FF} = {377A8404-853A-4F69-B64C-09ADCC3DE3ED}
+		{418E4041-F309-478A-8968-1B7ECF771FDE} = {377A8404-853A-4F69-B64C-09ADCC3DE3ED}
+		{144B2007-AD46-403F-AA9B-1A98C9B36629} = {A5E96E8D-C44C-422B-9D66-B557D2D209FF}
+		{86F73FCB-3A0D-477D-B798-05706C083134} = {418E4041-F309-478A-8968-1B7ECF771FDE}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = HelloWorld\HelloWorld.csproj
+	EndGlobalSection
+EndGlobal
